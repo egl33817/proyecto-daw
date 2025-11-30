@@ -7,3 +7,5 @@ Se puede visitar la versión en desarrollo del proyecto en la siguiente URL:
 - versión de producción: [mercatto-prod](https://mercatto.dev/)
 
 - versión de desarrollo: [mercatto-dev]()
+
+Aunque la plataforma Vercel, lugar en el que está alojado el frontend del proyecto, provee dominios gratuitos, se ha preferido contratar un dominio de pago para la versión de producción.
