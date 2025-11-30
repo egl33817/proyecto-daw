@@ -4,4 +4,6 @@ En este repositorio se deja el código creado para desarrollar el supermercado o
 
 Se puede visitar la versión en desarrollo del proyecto en la siguiente URL:
 
-[mercato](https://proyecto-daw-rust.vercel.app/)
+- versión de producción: [mercatto-prod](https://mercatto.dev/)
+
+- versión de desarrollo: [mercatto-dev]()
