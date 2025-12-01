@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-principal: #005C53;
-    --clr-principal-claro: #9FC131;
-    --clr-principal-oscuro: #042940;
-    --clr-lima: #DBF227;
-    --clr-beige: #D6D58E;
-    --clr-blanco: #ececec;
-    --clr-gris: #e2e2e2;
-    --clr-gris-claro: #CACACA;
-    --clr-gris-oscuro: #878787;
-    --clr-rojo: #961818;
-    --clr-blanco-crema: rgba(230, 230, 230, 1);
+    --color-principal: #005C53;
+    --color-principal-claro: #9FC131;
+    --color-principal-oscuro: #042940;
+    --color-lima: #DBF227;
+    --color-beige: #D6D58E; /* #EADFDB;*/
+    --color-blanco-crema: #ececec;
+    --color-gris: #e2e2e2;
+    --color-gris-claro: #CACACA;
+    --color-gris: #E6E6E6;
+    --color-gris-oscuro: #878787;
+    --color-rojo: #de0808;
+    --color-blanco: #FFFFFF;
 }
 
 * {

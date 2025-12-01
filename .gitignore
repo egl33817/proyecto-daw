@@ -7,3 +7,4 @@ Thumbs.db
 
 # Ignorar la carpeta que contiene las imágenes de los productos.
 imagenes/
+imgproductos/

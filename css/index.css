@@ -1,5 +1,5 @@
 header {
-    background-color: var(--clr-blanco);
+    background-color: var(--color-blanco-crema);
     height: 76px;
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@ header {
     top: 0;
     width: 100%;
     position: fixed;
-    border-bottom: .5px solid var(--clr-blanco-crema);
+    z-index: 1;
 }
 
 .header-izda,
@@ -39,6 +39,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    background-color: var(--color-blanco-crema);
     display: inline-block;
     height: 40px;
     width: 220px;
@@ -60,7 +61,7 @@ nav {
 }
 
 nav a {
-    color: var(--clr-principal-oscuro);
+    color: var(--color-principal-oscuro);
     padding: .75rem;
 }
 
@@ -72,49 +73,147 @@ nav a {
 
 .active,
 nav a:hover {
-    background-color: var(--clr-principal-claro);
+    background-color: var(--color-principal-claro);
     border-radius: .5rem;
 }
 
 .carrito {
-    background-color: var(--clr-principal-oscuro);
-    color: var(--clr-blanco-crema)
+    background-color: var(--color-principal-oscuro);
+    color: var(--color-blanco-crema)
 }
 
 .carrito:hover {
-    background-color: var(--clr-principal-claro);
-    color: var(--clr-principal-oscuro);
+    background-color: var(--color-principal-claro);
+    color: var(--color-principal-oscuro);
 }
 
 .numerito {
-    background-color: var(--clr-white);
-    color: var(--clr-main);
+    background-color: var(--color-white);
+    color: var(--color-main);
     padding: 0 .3rem;
     border-radius: .25rem;
 }
 
 footer {
-    background-color: var(--clr-blanco);
+    background-color: var(--color-blanco);
     height: 76px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    bottom: 0;
+    padding: 0 2rem;
     width: 100%;
-    position: fixed;
-    border-top: .5px solid var(--clr-blanco-crema);
+    border-top: .5px solid var(--color-blanco-crema);
 }
 
 .copyright {
-    color: var(--clr-gris-oscuro);
+    color: var(--color-gris-oscuro);
 }
 
 footer a {
-    color: var(--clr-gris-oscuro);
+    color: var(--color-gris-oscuro);
     padding: .75rem;
 }
 
 footer a:hover {
-    color: var(--clr-principal-oscuro);
+    color: var(--color-principal-oscuro);
+}
+
+/* SECCIÓN PRINCIPAL */
+main {
+    background-color: var(--color-blanco);
+    padding: 3rem 8rem;
+    margin-top: 3.5rem;
+}
+
+#seccion-ofertas {
+    border-top: .5px solid var(--color-gris-claro);
+}
+
+.titulo-principal {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.titulo-secundario {
+    margin-top: .5rem;
+    font-size: .9rem;
+    font-weight: 200;
+    color: var(--color-gris-oscuro);
+}
+
+#contenedor-ofertas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.producto {
+    background-color: var(--color-blanco);
+    border: .5px solid var(--color-gris-claro);
+    border-radius: 1rem;
+}
+
+.producto-imagen {
+    /* Así no ocupan más del 100% del tamaño de su padre, que es la celda del grid */
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.producto-detalles {
+    color: var(--color-white);
+    padding: .5rem;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.producto-descripcion {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: left;
+    height: 50px;
+}
+
+.producto-cantidad {
+    font-size: .85rem;
+    font-weight: 400;
+    color: var(--color-gris-oscuro);
+}
+
+.producto-precio {
+    margin-top: .5rem;    
+}
+
+.producto-precio-anterior {
+    text-decoration: line-through;
+    font-size: .9rem;
+}
+
+.producto-precio-actual {
+    font-size: 1.2rem;
+    color: var(--color-rojo);
+    font-weight: bold;
+}
+
+.producto-agregar {
+    margin-top: 1rem;
+    background-color: var(--color-white);
+    color: var(--color-principal-oscuro);
+    text-align: center;
+    padding: .5rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid var(--color-gris-oscuro);
+    transition: background-color .2s, color .2s;
+}
+
+.producto-agregar:hover {
+    background-color: var(--color-principal-oscuro);
+    color: var(--color-blanco);
+    border: 2px solid var(--color-principal-oscuro);
 }

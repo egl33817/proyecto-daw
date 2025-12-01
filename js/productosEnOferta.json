@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "categoria": "Fruta y verdura",
+        "subcategoria": "Verdura",
+        "descripcion": "Guacamole",
+        "cantidad": "200 gr", 
+        "precio": 2.55,
+        "descuento": 10,
+        "imagen": "./imgproductos/verduras/1.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 2,
+        "categoria": "Arroz, legumbres y pasta",
+        "subcategoria": "Legumbres",
+        "descripcion": "Garbanzos cocidos categoría extra",
+        "cantidad": "1.87 kg", 
+        "precio": 1.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/legumbres/2.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 3,
+        "categoria": "Aceites y especias",
+        "subcategoria": "Aceites",
+        "descripcion": "Aceite refinado de girasol",
+        "cantidad": "1 litro", 
+        "precio": 2.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/aceites/3.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 1,
+        "categoria": "Fruta y verdura",
+        "subcategoria": "Verdura",
+        "descripcion": "Guacamole",
+        "cantidad": "200 gr", 
+        "precio": 2.55,
+        "descuento": 10,
+        "imagen": "./imgproductos/verduras/1.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 2,
+        "categoria": "Arroz, legumbres y pasta",
+        "subcategoria": "Legumbres",
+        "descripcion": "Garbanzos cocidos categoría extra",
+        "cantidad": "1.87 kg", 
+        "precio": 1.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/legumbres/2.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 3,
+        "categoria": "Aceites y especias",
+        "subcategoria": "Aceites",
+        "descripcion": "Aceite refinado de girasol",
+        "cantidad": "1 litro", 
+        "precio": 2.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/aceites/3.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 1,
+        "categoria": "Fruta y verdura",
+        "subcategoria": "Verdura",
+        "descripcion": "Guacamole",
+        "cantidad": "200 gr", 
+        "precio": 2.55,
+        "descuento": 10,
+        "imagen": "./imgproductos/verduras/1.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 2,
+        "categoria": "Arroz, legumbres y pasta",
+        "subcategoria": "Legumbres",
+        "descripcion": "Garbanzos cocidos categoría extra",
+        "cantidad": "1.87 kg", 
+        "precio": 1.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/legumbres/2.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 3,
+        "categoria": "Aceites y especias",
+        "subcategoria": "Aceites",
+        "descripcion": "Aceite refinado de girasol",
+        "cantidad": "1 litro", 
+        "precio": 2.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/aceites/3.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 1,
+        "categoria": "Fruta y verdura",
+        "subcategoria": "Verdura",
+        "descripcion": "Guacamole",
+        "cantidad": "200 gr", 
+        "precio": 2.55,
+        "descuento": 10,
+        "imagen": "./imgproductos/verduras/1.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 2,
+        "categoria": "Arroz, legumbres y pasta",
+        "subcategoria": "Legumbres",
+        "descripcion": "Garbanzos cocidos categoría extra",
+        "cantidad": "1.87 kg", 
+        "precio": 1.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/legumbres/2.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 3,
+        "categoria": "Aceites y especias",
+        "subcategoria": "Aceites",
+        "descripcion": "Aceite refinado de girasol",
+        "cantidad": "1 litro", 
+        "precio": 2.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/aceites/3.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 1,
+        "categoria": "Fruta y verdura",
+        "subcategoria": "Verdura",
+        "descripcion": "Guacamole",
+        "cantidad": "200 gr", 
+        "precio": 2.55,
+        "descuento": 10,
+        "imagen": "./imgproductos/verduras/1.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 2,
+        "categoria": "Arroz, legumbres y pasta",
+        "subcategoria": "Legumbres",
+        "descripcion": "Garbanzos cocidos categoría extra",
+        "cantidad": "1.87 kg", 
+        "precio": 1.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/legumbres/2.webp",
+        "fecha": "20251201"
+    },
+    {
+        "id": 3,
+        "categoria": "Aceites y especias",
+        "subcategoria": "Aceites",
+        "descripcion": "Aceite refinado de girasol",
+        "cantidad": "1 litro", 
+        "precio": 2.25,
+        "descuento": 10,
+        "imagen": "./imgproductos/aceites/3.webp",
+        "fecha": "20251201"
+    }
+]
