@@ -125,8 +125,14 @@ main {
     margin-top: 3.5rem;
 }
 
-#seccion-ofertas {
+#seccion-ofertas,
+#seccion-nuevos {
+    margin-top: 2rem;
     border-top: .5px solid var(--color-gris-claro);
+}
+
+#seccion-nuevos {
+    margin-top: 4rem;
 }
 
 .titulo-principal {
@@ -142,7 +148,8 @@ main {
     color: var(--color-gris-oscuro);
 }
 
-#contenedor-ofertas {
+#contenedor-ofertas,
+#contenedor-nuevos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 1rem;
@@ -197,6 +204,10 @@ main {
     font-size: 1.2rem;
     color: var(--color-rojo);
     font-weight: bold;
+}
+
+#contenedor-nuevos .producto-precio-actual {
+    color: var(--color-negro);
 }
 
 .producto-agregar {

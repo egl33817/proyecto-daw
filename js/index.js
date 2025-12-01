@@ -11,7 +11,7 @@ fetch("./js/productosEnOferta.json")
     .catch(error => console.log("Error: " + error))
 
 // Lectura de archivo JSON con los datos de los productos nuevos.
-/*let productosNuevos = []
+let productosNuevos = []
 
 fetch("./js/productosNuevos.json")
     .then(response => response.json())
@@ -20,13 +20,13 @@ fetch("./js/productosNuevos.json")
         // La primera vez que cargue la página, cargamos todos los productos.
         cargarProductosNuevos(productos)
     })
-*/
+    .catch(error => console.log("Error: " + error))
 
 // Elementos del DOM.
 const contenedorOfertas = document.getElementById("contenedor-ofertas")
-//const seccionNovedades = document.getElementById("contenedor-novedades")
+const contenedorNuevos = document.getElementById("contenedor-nuevos")
 
-// Cargamos los productos quee están en oferta.
+// Cargamos los productos que están en oferta.
 function cargarProductosEnOferta(listaProductosEnOferta) 
 {
     contenedorOfertas.innerHTML = ""
@@ -65,5 +65,27 @@ function calcularPrecioConDescuento(precioOriginal, descuento)
 // Cargamos las novedades.
 function cargarProductosNuevos(listaProductosNuevos)
 {
+    contenedorNuevos.innerHTML = ""
 
+    listaProductosNuevos.forEach(producto => {
+        const divProducto = document.createElement("div")
+        
+        divProducto.classList.add("producto")
+
+        divProducto.innerHTML = `
+            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}" />
+            <div class="producto-detalles">
+                <h3 class="producto-descripcion">${producto.descripcion}</h3>
+                <h4 class="producto-cantidad">${producto.cantidad}</h4>
+                <p class="producto-precio">
+                    <span class="producto-precio-actual">${producto.precio} €</span> 
+                </p>
+                <button class="producto-agregar" id="${producto.id}">Añadir al carrito</button>
+            </div>
+        `
+
+        contenedorNuevos.append(divProducto)
+    })
+
+    //actualizarListaDeBotonesAgregar();
 }
