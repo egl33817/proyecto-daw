@@ -1,0 +1,120 @@
+header {
+    background-color: var(--clr-blanco);
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    border-bottom: .5px solid var(--clr-blanco-crema);
+}
+
+.header-izda,
+.footer-izda {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-dcha,
+.footer-dcha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.logo {
+    background-image: url(/imagenes/logoMercatto.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    height: 40px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.buscador {
+    height: 40px;
+    display: block;
+    text-align: center;
+    width: 50%;
+    min-width: 220px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: var(--clr-principal-oscuro);
+    padding: .75rem;
+}
+
+.active,
+.carrito {
+    display: block;
+    border-radius: .5rem;
+}
+
+.active,
+nav a:hover {
+    background-color: var(--clr-principal-claro);
+    border-radius: .5rem;
+}
+
+.carrito {
+    background-color: var(--clr-principal-oscuro);
+    color: var(--clr-blanco-crema)
+}
+
+.carrito:hover {
+    background-color: var(--clr-principal-claro);
+    color: var(--clr-principal-oscuro);
+}
+
+.numerito {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    padding: 0 .3rem;
+    border-radius: .25rem;
+}
+
+footer {
+    background-color: var(--clr-blanco);
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    border-top: .5px solid var(--clr-blanco-crema);
+}
+
+.copyright {
+    color: var(--clr-gris-oscuro);
+}
+
+footer a {
+    color: var(--clr-gris-oscuro);
+    padding: .75rem;
+}
+
+footer a:hover {
+    color: var(--clr-principal-oscuro);
+}
